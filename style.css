@@ -48,3 +48,13 @@ p {
   color: yellow;
   padding: 8px 30px;
 }
+
+.feature {
+  background: url(minimal2.jpg) no-repeat center center;
+  height: 600px;
+}
+
+.feature .container-fluid {
+  position: relative;
+  top: 200px;
+}
