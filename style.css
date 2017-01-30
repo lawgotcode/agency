@@ -3,13 +3,16 @@ html, body {
 }
 
 h1, h2, a {
-  font-family: 'Oswald' , sans-serif;
+
   text-transform: uppercase;
   text-decoration: none;
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Lora', serif;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .container {
@@ -20,11 +23,11 @@ p {
 /*main*/
 
 .main {
-  background: url(minimal1.jpg) no-repeat center center;
+  background: url(minimal4.jpg) no-repeat center center;
   background-size: cover;
-  height: 600px;
+  height: 850px;
   text-align: center;
-  color: black;
+
 }
 
 .main .container-fluid {
@@ -34,22 +37,22 @@ p {
 
 .nav {
   margin: 0;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .nav li {
-  
-  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
   display: inline;
   margin-right: 25px;
+  padding: 20px
 }
 
 .main h1 {
-  margin-bottom:  5px;
+  margin-bottom:  19px;
   margin-top: 0px;
-  font-size: 150px;
+  font-size: 60px;
+  color: #aeaea8;
 }
 
 .main p {
@@ -58,17 +61,54 @@ p {
 }
 
 .main .btn {
-  background: #1c1c1c;
-  color: yellow;
+  background: black;
+  color: white;
   padding: 8px 30px;
 }
 
+.supporting {
+  text-align: center;
+  padding: 20px 0 40px;
+  background-color: #0d0202;
+}
+
+.supporting .col {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.supporting h1
+.supporting h2 {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.supporting p {
+  color: white;
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.clearfix {
+  clear: both;
+}
+
 .feature {
-  background: url(minimal2.jpg) no-repeat center center;
-  height: 600px;
+  background: url(minimalnew6.jpg) no-repeat center center;
+  background-size: cover;
+  height: 790px;
 }
 
 .feature .container-fluid {
   position: relative;
   top: 200px;
+}
+
+.feature h2 {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
 }
