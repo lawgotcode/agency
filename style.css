@@ -68,47 +68,108 @@ p {
 
 .supporting {
   text-align: center;
-  padding: 20px 0 40px;
+  padding: 50px 0 80px;
   background-color: #f4ddd1;
 }
 
 .supporting .col {
   float: left;
-  width: 30%;
-  padding: 10px;
+  width: 31%;
+  padding: 1px;
+  margin-right: 38px;
+  color: #ffffff;
+  font-family: 'Lora', serif;
 }
 
-.supporting h1
+.supporting h1,
 .supporting h2 {
-  color: red;
-  font-size: 20px;
+  color: #ffa800;
+  font-size: 50px;
   margin-bottom: 10px;
-}
-
-.supporting p {
-  color: white;
-  margin-bottom: 5px;
-  line-height: 20px;
-  font-size: 12px;
 }
 
 .clearfix {
   clear: both;
 }
 
-.feature {
-  background: url(minimalnew6.jpg) no-repeat center center;
-  background-size: cover;
-  height: 790px;
+.supporting p {
+  color: white;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
 }
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.feature {
+  background: url(minimalnew1.jpg) no-repeat center center;
+  height: 600px;
+}
+
 
 .feature .container-fluid {
   position: relative;
   top: 200px;
 }
 
+.feature h1,
 .feature h2 {
+
+  font-size: 50px;
+  margin: 0;
+  padding: 50px 0 0;
   text-align: center;
-  margin: 10px;
-  padding: 20px;
+  font-family: 'Lora', serif;
+  color: #e7baa0;
+  font-weight: 900;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #cd7f32;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.footer {
+  background: url(minimalnew5.jpg) no-repeat center center;
+  height: 600px;
+  text-align: center;
+}
+
+.footer .container-fluid {
+  position: relative;
+  top: 200px;
+  bottom: 0px;
+}
+
+.footer h2 {
+  color: #cd7f32;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Lora', serif;
+  margin: 0 0 20px 0;
+  padding: 50px 0 20px;
+  font-weight: 600;
+}
+
+.footer .btn {
+  background-color: #eee;
+  color: #cd7f32;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
 }
